@@ -1,0 +1,27 @@
+{
+  "projectName": "job-market-analytics",
+  "mode": "file-router",
+  "typescript": true,
+  "packageManager": "pnpm",
+  "tailwind": true,
+  "addOnOptions": {
+    "prisma": {
+      "database": "postgres"
+    }
+  },
+  "git": true,
+  "version": 1,
+  "framework": "react-cra",
+  "chosenAddOns": [
+    "eslint",
+    "netlify",
+    "start",
+    "neon",
+    "prisma",
+    "form",
+    "shadcn",
+    "t3env",
+    "table",
+    "tanstack-query"
+  ]
+}
