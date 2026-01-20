@@ -18,7 +18,7 @@ const config = defineConfig({
   plugins: [
     devtools(),
     netlify(),
-    neon,
+    // neon,
     // this is the plugin that enables path aliases
     viteTsConfigPaths({
       projects: ['./tsconfig.json'],
